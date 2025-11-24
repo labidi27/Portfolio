@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Haithem Labidi — Portfolio</title>
+
+  <!-- Styles (kept in same visual style as your uploaded styles.css but extended) -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Sidebar (keeps same labels from your original file) -->
+  <aside id="sidebarMenu">
+    <ul class="sidebarMenuInner">
+      <li>Haithem <span>Portfolio</span></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Portfolio</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </aside>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="logo">
+      <i>H</i>
+      <div style="color:var(--muted)">Haithem Labidi</div>
+    </div>
+    <nav>
+      <div class="navlinks">
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </div>
+
+  <main class="wrapper">
+    <!-- HERO / INTRO -->
+    <section id="home" class="card hero">
+      <div class="hero-text">
+        <h5>Hi — I'm <span class="role">Full-Stack Developer (MERN)</span></h5>
+        <h1>Haithem Labidi</h1>
+        <p>I am an aeronautical engineer turned web developer after completing the Full-Stack MERN certificate at Go My Code (Dec 2024 – Jul 2025). I build responsive web applications and APIs with a focus on clean UI, performance and maintainability.</p>
+
+        <div class="btn-group">
+          <a class="btn primary" href="/mnt/data/Haithem-Labidi-FlowCV-Resume-20251117 (1).pdf" target="_blank">Download CV (PDF)</a>
+          <a class="btn" href="#contact">Contact</a>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/labidi27" target="_blank">GitHub</a>
+          <a href="#" style="margin-left:10px">LinkedIn</a>
+        </div>
+
+      </div>
+
+      <div class="hero-pic card">
+        <!-- Replace this src with your actual image file. I left a placeholder path img/img.jpg used in your original project. -->
+        <img src="img/img.jpg" alt="Haithem Labidi — profile picture">
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="card about-grid">
+        <div class="bio">
+          <h3 style="color:var(--accent);margin-bottom:8px">About</h3>
+          <p>Ingénieur aéronautique reconverti dans le développement web. Passionné par la création d'interfaces propres et performantes. J'ai une formation Full-Stack MERN, et je suis à la recherche d'opportunités pour contribuer à des projets ambitieux.</p>
+
+          <h4 style="margin-top:14px;color:var(--muted)">Quick facts</h4>
+          <ul style="margin-top:8px;list-style:disc;padding-left:20px;color:rgba(255,255,255,0.75)">
+            <li>Location: Tunisie</li>
+            <li>Email: <a href="mailto:labidihaithem.dev@gmail.com">labidihaithem.dev@gmail.com</a></li>
+            <li>Phone: (216) 53 646 459</li>
+            <li>GitHub: <a href="https://github.com/labidi27" target="_blank">github.com/labidi27</a></li>
+          </ul>
+        </div>
+
+        <div class="card" style="background:var(--card);border:1px solid rgba(255,255,255,0.03)">
+          <h4 style="color:var(--accent)">Education</h4>
+          <p style="font-size:14px;margin-top:8px">Full-Stack MERN — Go My Code (Dec 2024 – Jul 2025)<br>Ingénieur Génie Aéronautique — Université ESAT</p>
+
+          <h4 style="color:var(--accent);margin-top:12px">Tools & Technologies</h4>
+          <p style="font-size:14px;margin-top:8px">HTML5, CSS3, JavaScript(ES6+), React, Next.js, Node.js, Express, MongoDB, Mongoose, Git, Postman, Render</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="card">
+        <h3 style="color:var(--accent)">Skills</h3>
+        <div style="margin-top:12px" class="skills-grid">
+          <div class="skill">
+            <div class="label"><span>JavaScript (ES6+)</span><strong>85%</strong></div>
+            <div class="bar"><i style="width:85%"></i></div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>React / Next.js</span><strong>80%</strong></div>
+            <div class="bar"><i style="width:80%"></i></div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>Node.js / Express</span><strong>78%</strong></div>
+            <div class="bar"><i style="width:78%"></i></div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>MongoDB</span><strong>75%</strong></div>
+            <div class="bar"><i style="width:75%"></i></div>
+          </div>
+          <div class="skill">
+            <div class="label"><span>HTML & CSS</span><strong>90%</strong></div>
+            <div class="bar"><i style="width:90%"></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="card">
+        <h3 style="color:var(--accent)">Selected Projects</h3>
+        <div style="margin-top:14px" class="projects-grid">
+
+          <article class="project">
+            <h4>SocialApp</h4>
+            <p>Full social application with authentication, user profiles and posts. Built with the MERN stack. Includes responsive admin dashboard and theme (light/dark).</p>
+            <div class="tags"><span class="tag">React</span><span class="tag">Node</span><span class="tag">MongoDB</span></div>
+          </article>
+
+          <article class="project">
+            <h4>MovieApp</h4>
+            <p>React app that consumes third-party APIs to show movie lists, search, and detail pages. Uses React Router and React-Bootstrap for layout and components.</p>
+            <div class="tags"><span class="tag">React</span><span class="tag">API</span></div>
+          </article>
+
+          <article class="project">
+            <h4>Responsive Admin Dashboard</h4>
+            <p>Custom HTML/CSS/JS admin dashboard with dark & light theme toggle and chart examples. Focus on responsive layout and accessibility.</p>
+            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME (converted from your PDF content) -->
+    <section id="resume">
+      <div class="card resume">
+        <div>
+          <h3 style="color:var(--accent)">Resume</h3>
+
+          <div class="item">
+            <h5>Profile</h5>
+            <p>Ingénieur aéronautique reconverti dans le développement web après une formation Full-Stack MERN chez Go My Code. Compétences en développement front-end et back-end.</p>
+          </div>
+
+          <div class="item">
+            <h5>Experience & Projects</h5>
+            <p style="font-size:14px">- Life Prediction of the weldings in a bike frame — Analyse structurelle (ANSYS).<br>- Conception et Assemblage d’un Compresseur (CATIA).<br>- Mini-projet: jeu éducatif Android pour futurs pilotes.</p>
+          </div>
+
+          <div class="item">
+            <h5>Education</h5>
+            <p style="font-size:14px">Full-Stack MERN — Go My Code (12/2024 – 07/2025)<br>Ingénieur Génie Aéronautique — Université ESAT</p>
+          </div>
+
+        </div>
+
+        <aside class="card" style="background:transparent;border:0">
+          <h4 style="color:var(--muted)">Contact</h4>
+          <p style="font-size:14px">labidihaithem.dev@gmail.com<br>(216) 53 646 459<br><a href="https://github.com/labidi27" target="_blank">github.com/labidi27</a></p>
+
+          <h4 style="color:var(--muted);margin-top:12px">Languages</h4>
+          <p style="font-size:14px">Anglais — Jeppesen Level 4<br>Français — Courant<br>Arabe — Langue maternelle</p>
+
+          <a class="btn" href="/mnt/data/Haithem-Labidi-FlowCV-Resume-20251117 (1).pdf" target="_blank" style="margin-top:14px;display:inline-block">Open original PDF</a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="card contact-grid">
+        <div>
+          <h3 style="color:var(--accent)">Get in touch</h3>
+          <p>If you'd like to contact me about a job or project, send a message using the form or email directly.</p>
+
+          <form id="contactForm">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Your email" required>
+            <textarea name="message" placeholder="Your message" rows="6" required></textarea>
+            <button type="submit">Send message</button>
+          </form>
+
+        </div>
+
+        <aside class="card" style="background:transparent;border:0">
+          <h4 style="color:var(--muted)">Quick contact</h4>
+          <p style="font-size:14px">Email: <a href="mailto:labidihaithem.dev@gmail.com">labidihaithem.dev@gmail.com</a><br>Phone: (216) 53 646 459</p>
+
+          <h4 style="color:var(--muted);margin-top:12px">Location</h4>
+          <p style="font-size:14px">Tunisia</p>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 — Haithem Labidi • Built with ❤️
+    </footer>
+  </main>
+
+  <!-- Scripts: small JS for interactions -->
+  <script>
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click',e=>{
+        const href=a.getAttribute('href');
+        if(href.length>1){
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
+        }
+      });
+    });
+
+    // Contact form simple handler
+    document.getElementById('contactForm').addEventListener('submit',function(e){
+      e.preventDefault();
+      const data = new FormData(this);
+      // For local demo, open mailto with values
+      const subject = encodeURIComponent('Portfolio contact from ' + data.get('name'));
+      const body = encodeURIComponent('Message from: ' + data.get('name') + '\nEmail: ' + data.get('email') + '\n\n' + data.get('message'));
+      window.location.href = 'mailto:labidihaithem.dev@gmail.com?subject=' + subject + '&body=' + body;
+    });
+
+  </script>
+</body>
+</html>
